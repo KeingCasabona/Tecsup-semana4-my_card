@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
             CircleAvatar(
               radius: 56,
               backgroundColor: Colors.white24,
-              backgroundImage: NetworkImage(
-                  'https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),
+              backgroundImage: AssetImage('assets/images/person.jpeg'),
             ),
             Text(
               'Marcos Medrano',
