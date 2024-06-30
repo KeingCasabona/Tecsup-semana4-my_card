@@ -10,11 +10,22 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
+        backgroundColor: Colors.black12,
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          backgroundColor: Colors.black12,
+          title: const Text('Material App Bar',
+              style: TextStyle(color: Colors.white)),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              radius: 56,
+              backgroundColor: Colors.white24,
+              backgroundImage: NetworkImage(
+                  'https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),
+            )
+          ],
         ),
       ),
     );
