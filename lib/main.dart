@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Marcos Medrano',
+              'Keing Limache Casabona',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
